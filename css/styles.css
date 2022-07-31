@@ -32,3 +32,139 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+
+
+/* SITE-HEADER */
+.site-header-logo {
+  width: 1366px;
+  height: 156px;
+}
+
+
+/* MAIN-CONTENT */
+.job-card-container {
+  display: flex;
+  align-items: center;
+  padding: 32px 40px 32px 35px;
+  background-color: #fff;
+  border-left: 5px solid #5ca5a5;
+  border-radius: 5px;
+}
+
+.job-card-img {
+  margin-right: 24px;
+}
+
+
+/* JOB-CARD-LEFT */
+.job-card-left {
+  font-family: "League Spartan", "Arial", sans-serif;
+  font-style: normal;
+  margin-right: auto;
+}
+
+.job-card-top-list {
+  display: flex;
+  font-weight: 700;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 8px;
+}
+
+.job-card-top-item {
+  list-style: none;
+}
+
+.job-card-top-primary {
+  font-size: 14px;
+  line-height: 16px;
+  margin-right: 16px;
+  color: #5ca5a5;
+}
+
+.job-card-top-new {
+  padding: 6px 8px 4px;
+  margin-right: 8px;
+  font-size: 11px;
+  line-height: 14px;
+  text-align: center;
+  letter-spacing: -0.0846154px;
+  text-transform: uppercase;
+  border-radius: 12px;
+  background-color: #5ca5a5;
+  color: #fff;
+}
+
+.job-card-top-featured {
+  padding: 6px 8px 4px;
+  margin-right: 8px;
+  font-size: 11px;
+  line-height: 14px;
+  text-align: center;
+  letter-spacing: -0.0846154px;
+  text-transform: uppercase;
+  border-radius: 12px;
+  background-color: #2b3939;
+  color: #fff;
+}
+
+.job-card-heading-link {
+  text-decoration: none;
+  color: #2b3939;
+}
+
+.job-card-heading {
+  padding: 0;
+  margin: 0;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  margin-bottom: 8px;
+}
+
+.job-card-bottom-list {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.job-card-bottom-item {
+  list-style: none;
+}
+
+.job-card-bottom-item:not(:last-child) {
+  margin-right: 36px;
+}
+
+
+/* JOB-CARD-RIGHT */
+.job-card-right {
+
+}
+
+.job-card-right-list {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 24px;
+  letter-spacing: -0.1px;
+}
+
+.job-card-right-item {
+  list-style: none;
+  border-radius: 4px;
+  background-color: rgba(135, 206, 250, 0.1);
+}
+
+.job-card-right-item:not(:last-child) {
+  margin-right: 16px;
+}
+
+.job-card-right-link {
+  padding: 4px 8px;
+  text-decoration: none;
+  color: #5ca5a5;
+}
