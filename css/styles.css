@@ -13,7 +13,7 @@ body {
   font-family: "League Spartan", "Arial", sans-serif;
   font-size: 15px;
   line-height: 1.6;
-  background-color: #f2f2f2;
+  background-color: #effafa;
   color: #7c8f8f;
 }
 
@@ -36,12 +36,17 @@ body {
 
 /* SITE-HEADER */
 .site-header-logo {
+  margin-bottom: 76px;
   width: 1366px;
   height: 156px;
 }
 
 
 /* MAIN-CONTENT */
+.job-card:not(:last-child) {
+  margin-bottom: 24px;
+}
+
 .job-card-container {
   display: flex;
   align-items: center;
@@ -49,9 +54,16 @@ body {
   background-color: #fff;
   border-left: 5px solid #5ca5a5;
   border-radius: 5px;
+  box-shadow: 0px 15px 20px -5px rgba(13, 113, 130, 0.15);
+}
+
+.job-card-container-noborder {
+  border: none;
 }
 
 .job-card-img {
+  width: 88px;
+  height: 88px;
   margin-right: 24px;
 }
 
@@ -109,18 +121,26 @@ body {
   color: #fff;
 }
 
+.job-card-heading {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 8px;
+}
+
 .job-card-heading-link {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
   text-decoration: none;
   color: #2b3939;
 }
 
-.job-card-heading {
-  padding: 0;
-  margin: 0;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 24px;
-  margin-bottom: 8px;
+.job-card-heading-link:hover {
+  color: #5ca5a5;
+}
+
+.job-card-heading-link:active {
+  opacity: 0.6;
 }
 
 .job-card-bottom-list {
@@ -140,7 +160,8 @@ body {
 
 /* JOB-CARD-RIGHT */
 .job-card-right {
-
+  font-family: "League Spartan", "Arial", sans-serif;
+  font-style: normal;
 }
 
 .job-card-right-list {
@@ -155,8 +176,6 @@ body {
 
 .job-card-right-item {
   list-style: none;
-  border-radius: 4px;
-  background-color: rgba(135, 206, 250, 0.1);
 }
 
 .job-card-right-item:not(:last-child) {
@@ -166,5 +185,16 @@ body {
 .job-card-right-link {
   padding: 4px 8px;
   text-decoration: none;
+  border-radius: 4px;
+  background-color: rgba(135, 206, 250, 0.1);
   color: #5ca5a5;
+}
+
+.job-card-right-link:hover {
+  background-color: #5ca5a5;
+  color: #fff;
+}
+
+.job-card-right-link:active {
+  opacity: 0.6;
 }
